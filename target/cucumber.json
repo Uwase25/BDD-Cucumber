@@ -1,0 +1,486 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4669983700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7175750900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-techfios-login-functionality-different-way;login-different-way;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1140148000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8004300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4516877700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3403549300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-techfios-login-functionality-different-way;login-different-way;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3620124700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 128500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo2@techfios.com\" and \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo2@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc123",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4622250600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3487082900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-techfios-login-functionality-different-way;login-different-way;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1019342200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 134900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo@techfios.com\" and \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc124",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 43700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3471638500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Techfios login page",
+            "match": {
+              "location": "StepDefinition.User_is_on_the_Techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2924684300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.beforeRun()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Login different way",
+        "description": "",
+        "id": "validate-techfios-login-functionality-different-way;login-different-way;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 1054076100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 591100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"demo2@techfios.com\" and \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo2@techfios.com",
+                  "offset": 13
+                },
+                {
+                  "val": "abc124",
+                  "offset": 38
+                }
+              ],
+              "location": "StepDefinition.user_enters_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "StepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@Smoke"
+          },
+          {
+            "line": 7,
+            "name": "@Scenario1"
+          },
+          {
+            "line": 1,
+            "name": "@OtherLogin"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Techfios Login Functionality different way",
+    "description": "",
+    "id": "validate-techfios-login-functionality-different-way",
+    "keyword": "Feature",
+    "uri": "features/OtherLogin.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@OtherLogin"
+      }
+    ]
+  }
+]
